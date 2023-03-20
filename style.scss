@@ -1,0 +1,176 @@
+header{
+    background-color: black;
+    padding-top: 33px;
+    padding-bottom: 32px;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+   
+    
+}
+
+.phone{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.headline{
+    background-color:#f5f5f7;
+    text-align: center;
+    padding: 70px 0 40px;
+}
+
+.title{
+    margin-bottom:0 0 40px;
+    color:purple;
+    font-weight: 700;
+    line-height: 77px;
+    font-size:64px;
+}
+
+.headline-img{
+    margin-bottom: 25px;
+}
+
+.headline-btn{
+    display: inline-block;
+    font-weight: 700;
+    font-size:24px; 
+    line-height: 29px ;
+    text-transform: uppercase;
+    color:#fff;
+    background-color: purple;
+    padding-top: 22px;
+    padding-left: 117px;
+    padding-right: 117px;
+    padding-bottom: 19px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.new{
+    padding-top: 90px;
+    padding-bottom: 150px;
+
+}
+.new-title{
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.new-info{
+    display: flex;
+}
+
+.new-text p{
+    max-width: 550px;
+    margin:0 0 30px;
+}
+
+.new-text b{
+    font-weight: bolder;
+    max-width: 550px;
+    font-size:20px;
+    display: block;
+}
+.images-new{
+    margin-left: 230px;
+}
+
+.color-items{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 0px;
+}
+
+.color-items li,h3{
+    text-align: center;
+}
+
+.inputform{
+    display: flex;
+    background-color: #574B63;
+    color: #fff;
+}
+
+.contacts{
+    width: 100%;
+    padding:140px 100px;
+}
+
+.iphone{
+    font-size:32px;
+    line-height: 38px;
+    margin-bottom: 35px;
+}
+
+.form{
+    display: block;
+    width: 100%;
+    background-color: #574B63;
+    border: none;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 10px 0px 15px 0px;
+}
+.text-sub{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.5;
+}
+
+.sub-button{
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: #574B63;
+    background-color: #F5F5F5;
+    margin-left: 120px;
+    margin-right: 120px;
+  
+}
+
+footer{
+    background-color: black;
+    
+}
+
+.footer{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+
+}
+
+.politic{
+    color: #fff;
+}
+
+.color-choose{
+    text-align: center;
+    color: #717171;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+
+.colors{
+    margin-bottom: 120px;
+}
